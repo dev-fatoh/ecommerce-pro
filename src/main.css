@@ -511,7 +511,7 @@ button.close-model {
     width: 100vw;
     background: rgba(0, 0, 0, 0.5);
     font-size: 2rem;
-    height: 100vh;
+    min-height: 100vh;
     z-index: 999;
   }
 
@@ -562,7 +562,6 @@ button.close-model {
   .cart-model {
     right: 0;
     top: 140%;
-    height: 30vh;
     width: 100%;
   }
 }
