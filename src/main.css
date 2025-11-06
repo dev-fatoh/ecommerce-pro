@@ -431,7 +431,7 @@ button.close-model {
   }
 
   body:has(.mobile-nav, .cart-model) {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
 
   .container {
