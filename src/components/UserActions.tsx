@@ -8,7 +8,7 @@ export default function UserActions() {
   }
   const [countItem, setCountItem] = useState(context.counter);
   return (
-    <div className="flex">
+    <div className="cart-control">
       <div className="count-product">
         <button
           className="decrement"
