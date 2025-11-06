@@ -506,10 +506,13 @@ button.close-model {
 
   .mobile-nav {
     position: absolute;
-    inset: 0;
+    left: 0;
+    top: 0;
+    width: 100vw;
     background: rgba(0, 0, 0, 0.5);
-    font-size: 1.2rem;
-    z-index: 99999;
+    font-size: 2rem;
+    height: 100vh;
+    z-index: 999;
   }
 
   .inner {
@@ -519,6 +522,7 @@ button.close-model {
     width: 70%;
     height: 100%;
     background: white;
+    margin-left: -12px;
   }
 
   .close-nav {
@@ -536,7 +540,7 @@ button.close-model {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
   }
 
   .mobile-nav ul li {
