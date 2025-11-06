@@ -37,7 +37,7 @@ a {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 120vh;
   position: relative;
   overflow-y: hidden;
 }
@@ -196,6 +196,7 @@ body {
   width: 100%;
   display: block;
   margin: 1.2rem 0;
+  cursor: pointer;
 }
 
 .add-cart-btn {
@@ -511,7 +512,7 @@ button.close-model {
     width: 100vw;
     background: rgba(0, 0, 0, 0.5);
     font-size: 2rem;
-    min-height: 100vh;
+    min-height: 120vh;
     z-index: 999;
   }
 
@@ -552,11 +553,17 @@ button.close-model {
 
     color: gray;
   }
+  .add-cart-btn {
+    font-size: 1.6rem;
+    color: var(--very-dark-blue);
+    font-weight: 600;
+    padding: 1em 1.6em;
+  }
 
   .count-product {
     justify-content: space-between;
-    margin: 1rem 1.6rem;
-    width: 20rem;
+    width: 35rem;
+    font-size: 1.6rem;
   }
 
   .cart-model {
